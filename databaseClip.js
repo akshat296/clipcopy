@@ -4,18 +4,18 @@ const clipboard = require('electron-clipboard-extended')
 
 
 var dbConfig = {
-    server: "localhost",
-    database: "OPALS",
-    user: "fsadf",
-    password: "fasd!",
+    server: "1fdsa1",
+    database: "fsad",
+    user: "sfad1",
+    password: "sfda",
     port: 1433
 };
 
 var databases = {
-    'sfda':'OTCS',
-    'APPLsadfN':'sfad',
-    'APPLICsfadSN':'fasd',
-    'APPLICasf0DSN': 'sfad'
+    'APPLIfsdaN':'fasd',
+    'sfda':'fsda',
+    'APPLICAsfadN':'sfad',
+    'sfad.fsda': 'fsda'
 }
 
 var table = 'Companies';
@@ -94,6 +94,7 @@ async function getData(table, dbConfig) {
         document.getElementById('copiedText').innerHTML = err
     }
 }
+
 
 
 

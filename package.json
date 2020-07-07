@@ -23,6 +23,6 @@
     "mssql": "^5.1.0"
   },
   "devDependencies": {
-    "electron": "^5.0.2"
+    "electron": "^7.2.4"
   }
 }
